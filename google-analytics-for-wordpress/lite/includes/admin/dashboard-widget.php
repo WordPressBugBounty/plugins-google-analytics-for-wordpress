@@ -143,8 +143,8 @@ class MonsterInsights_Dashboard_Widget {
 			<h2><?php echo $message; // phpcs:ignore ?></h2>
 			<?php if ( current_user_can( 'monsterinsights_save_settings' ) ) { ?>
 				<p><?php esc_html_e( 'To see your website stats, please connect MonsterInsights to Google Analytics.', 'google-analytics-for-wordpress' ); ?></p>
-				<a class="mi-dw-btn-large monsterinsights-setup-wizard-link"><?php esc_html_e( 'Setup Website Analytics', 'google-analytics-for-wordpress' ); ?></a>
-				<p><?php esc_html_e( 'Note: You will be transfered to MonsterInsights.com to complete the setup wizard.', 'google-analytics-for-wordpress' ); ?></p>
+				<a class="mi-dw-btn-large monsterinsights-setup-wizard-link"><?php esc_html_e( 'Set Up Website Analytics', 'google-analytics-for-wordpress' ); ?></a>
+				<p><?php esc_html_e( 'Note: You will be transferred to MonsterInsights.com to complete the setup wizard.', 'google-analytics-for-wordpress' ); ?></p>
 			<?php } else { ?>
 				<p><?php esc_html_e( 'To see your website stats, please ask your site administrator to connect MonsterInsights to Google Analytics.', 'google-analytics-for-wordpress' ); ?></p>
 			<?php } ?>
